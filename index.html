@@ -60,6 +60,89 @@
           </svg>
         </button>
       </div>
+
+      <div class="mob-menu">
+        <button type="button" class="mob-close-btn">
+          <svg width="8" height="8" class="mob-close-icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div>
+          <nav class="mob-nav">
+            <ul class="mob-nav-list">
+              <li class="mob-nav-item">
+                <a class="mob-nav-link" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-nav-item">
+                <a class="mob-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-nav-item">
+                <a class="mob-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <address class="mob-contacts">
+            <ul class="mob-contacts-list">
+              <li class="mob-contacts-item">
+                <a class="mob-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mob-contacts-item">
+                <a class="mob-contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="mob-social-list">
+            <li class="mob-social-item">
+              <a
+                class="mob-social-link"
+                href="https://instagram.com"
+                target="_blank"
+                ><svg class="mob-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-social-item">
+              <a
+                class="mob-social-link"
+                href="https://twitter.com"
+                target="_blank"
+                ><svg class="mob-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-social-item">
+              <a
+                class="mob-social-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                ><svg class="mob-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-social-item">
+              <a
+                class="mob-social-link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                ><svg class="mob-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -628,7 +711,9 @@
       </section>
     </main>
 
-    <!-- <footer class="footer">
+    <!-- Footer -->
+
+    <footer class="footer">
       <div class="container footer-container">
         <div class="logo-wrapper">
           <a class="footer-logo logo" href="./index.html"
@@ -703,7 +788,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- Modal -->
     <div class="backdrop">
@@ -778,15 +863,17 @@
               class="modal-check visually-hidden"
               value="true"
             />
-            <label for="user-privacy" class="check-text"
-              ><span class="check-span">
+            <label for="user-privacy" class="check-text">
+              <span class="check-span">
                 <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="policy-link">Privacy Policy</a></label
-            >
+              <span>
+                I accept the terms and conditions of the
+                <a class="policy-link">Privacy Policy</a>
+              </span>
+            </label>
           </div>
 
           <button type="submit" class="modal-button">Send</button>
